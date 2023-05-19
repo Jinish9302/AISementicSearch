@@ -16,7 +16,7 @@ python setup.py
 ```
 If api keys are not configured the program will ask the api keys for hugging face api and pinecone api as well as environment for pinecone api here. to get the apk keys and environment for pinecone api go to [Pinecone](https://www.pinecone.io/). and for hugging face token go to [Hugging Face](http://hf.co/settings/tokens)
 
-After running the setup.py json file named "credentials.json" in folder. which will look like tgus
+After running the setup.py json file named "credentials.json" in folder. which will look like this
 
 ```json
 {
