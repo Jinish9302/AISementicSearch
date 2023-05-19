@@ -4,14 +4,12 @@ Wonder How Google Bard, ChatGPT and search engines know exactly what we want wit
 
 ## Installation of application
 
-<b>Step 1:</b>
-
+<b>Step 1:</b><br>
 To install relevant libraries necessary for the given application run the following command in terminal (make sure you are in the same directory in which all the codes are stored)
 ```bash
 pip install -r requirements.txt
 ```
-<b>Step 2:</b>
-
+<b>Step 2:</b><br>
 Run the following program in the terminal. you only need to run this command when running the code for the first time
 ```bash
 python setup.py
@@ -28,12 +26,13 @@ After running the setup.py json file named "credentials.json" in folder. which w
 }
 ```
 
-<b>Step 3:</b>
+<b>Step 3:</b><br>
 Run the following command on Terminal to open the application
 ```bash
 flask --app app run
 ```
 
 ## APIs used for application
-Hugging face: To retrieve Vector embeddings of given document <br>
-Pinecone: Provides an efficient way to store and retrieve the most relevant
+[Pinecone](https://www.pinecone.io/): Provides an efficient way to store and retrieve the most relevant<br>
+[Hugging Face](http://hf.co/settings/tokens): To retrieve Vector embeddings of given document
+
